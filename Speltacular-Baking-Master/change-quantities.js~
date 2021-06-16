@@ -1,0 +1,19 @@
+var buttons = document.getElementsByClassName("quantity-button");
+for (i = 0; i < buttons.length; i++) {
+	buttons[i].addEventListener("click", function() {
+	console.log("working"); });
+}
+//let button = document.querySelector("button.quantity-button");
+//let mult = button.value;
+
+//function changeValue(mult) {
+	//starterValue.innerHTML = starterValue * mult;
+	//waterValue.innerHTML = waterValue * mult;
+	//yeastValue.innerHTML = yeastValue * mult;
+	//speltInt.innerHTML = speltInt * mult;
+	//saltValue.innerHTML = saltValue * mult;
+	
+//}
+
+	
+

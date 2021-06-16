@@ -1,0 +1,136 @@
+@media only screen and (max-width: 767px) {
+	body{
+		overflow: scroll;
+		width: 300px;
+	}
+	
+	.header{
+		background: url("../img/cake-overlay.jpg");
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-position: center;
+		height: 400px;
+		width: 300px;
+		display: block;
+	
+	}
+	img {
+		position: relative;
+		top: 32px;
+		margin-bottom: 16px;
+		display: block;
+	}
+	
+	.cake_image img{
+		display: block;
+		border-radius: 50%;
+		width: 150px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.header p{
+		color: white;
+		position: relative;
+		text-align: center;
+		font-family: Comic Sans MS, Comic Sans, cursive;
+		font-size: 28px;
+		display: block;
+	}
+	
+	.header_text {
+		position: relative;
+		text-align: center;
+		display: block;
+	
+	}
+	
+	.header_text a{
+		color: white;
+		text-decoration: none;
+		font-family: Comic Sans MS, Comic Sans, cursive;
+		font-size: 16px;
+		border-top: 2px solid white;
+		padding-top: 16px;
+		display: block;
+	}
+	
+	.text h2{
+		margin-left: 32px;
+		font-family: Comic Sans MS, Comic Sans, cursive;
+	}
+	
+	.text p{
+		display: block;
+		color: black;
+		position: relative;
+		margin: 16px 32px;
+	}
+	
+	.blurb {
+		padding-bottom: 48px;
+	}
+	.blurb p{
+		background-color: #EDE2CE;
+		padding: 16px;
+		border-radius: 3%;
+		width: 220px;
+	}
+	
+	.blurb a{
+		color: 	#812925;
+		text-align: right;
+	}
+	
+	footer {
+		position: absolute;
+		margin-top: 90px;
+		height:48px;
+		padding: 32px;
+		background: url("../img/cake-overlay.jpg");
+	}
+	
+	footer p{
+		color: white;
+		font-size: 12px;
+		width: 236px;
+		text-align: center;
+	}
+	
+	h1{
+		font-family:Comic Sans MS, Comic Sans, cursive;
+	}
+	
+	h2{
+		font-family:Comic Sans MS, Comic Sans, cursive;
+	}
+	
+	.recipe_table {
+		overflow: scroll;
+	}
+	
+	.directions p{
+		margin-bottom: 16px;
+	}
+	.directions img{
+		margin-top: 16px;
+		width: 260px;
+	}
+	
+	table{
+		border-collapse: collapse;
+	}
+	td, th {
+		border: 1px solid black;
+		text-align: center;
+		padding: 8px 16px;
+	}
+	
+	tr:nth-child(1) {
+		background-color: #EDE2CE;
+	}
+	.tooltip {
+		display: none;
+	}
+	
+}

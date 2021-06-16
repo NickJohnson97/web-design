@@ -1,0 +1,220 @@
+@media only screen and (min-width: 768px) {
+	body{
+		background-image: url("../Design-Package/bread.jpg");
+		background-repeat: no-repeat;
+		margin: 0px;
+		background-size: cover;
+		background-attachment: fixed;
+	}
+	
+	.header {
+		min-width: 200px;
+		float: left;
+		margin-right:32px;
+		top: 0px;
+		left: 0px;
+		width:15.625%;
+		background-color: #fffefa;
+		border-radius: 0% 0% 6px 0%;
+		box-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+	}
+	
+	.header img{
+		position: relative;
+		display: block;
+		margin-top: 32px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 32px;
+		border-radius: 50%;
+		width: 50%;
+		box-shadow: 0px 0px 3px black;
+	}
+	
+	.header p{
+		margin: 0px;
+		color: #773320;
+		position: relative;
+		text-align: center;
+		font-family: Comic Sans MS, Comic Sans, cursive;
+		font-size: 28px;
+		display: block;
+	}
+	
+	.header_text {
+		top: 16px;
+		position: relative;
+		text-align: center;
+		display: block;
+		width: 100%;
+		margin-bottom: 16px;
+	}
+	
+	.home_button, .recipes_button {
+		width:100%;
+		box-sizing: border-box;
+		position: relative;
+		text-align: center;
+		margin: 0px;
+	}
+	.home_button a:hover, .recipes_button a:hover {
+		color:white;
+		background-color: #773320;
+	}
+	
+	.recipes_button a:hover {
+		border-radius: 0% 0% 6px 0%;
+	}
+	
+	
+	.header_text a{
+		color: #773320;
+		text-decoration: none;
+		font-family: Comic Sans MS, Comic Sans, cursive;
+		font-size: 20px;
+		margin: 0px;
+		padding: 16px;
+		display: block;
+	}
+	
+	.text {
+		overflow: auto;
+		top: 0px;
+		right: 0px;
+		min-width: 400px;
+		background-color: #fffefa;
+		border-radius: 0% 0% 0% 6px;
+		box-shadow: -1px 1px 2px rgba(0,0,0,0.5);
+	}
+	.text h1{
+		margin-left: 32px;
+	}
+	
+	.text h2{
+		margin-left: 32px;
+		font-family: Comic Sans MS, Comic Sans, cursive;
+	}
+	
+	.text p{
+		color: black;
+		position: relative;
+		margin: 16px 32px;
+	}
+	
+	.blurb p{
+		background-color: #EDE2CE;
+		color: 	black;
+		text-align: right;
+		padding: 16px;
+		border-radius: 3%;
+		width: 250px;
+		box-shadow:1px 1px 2px rgba(0,0,0,0.5);
+	}
+	
+	.blurb a{
+		color: #812925;
+	}
+	
+	.foot {
+		bottom: 0px;
+		text-align: center;
+	}
+	
+	h1{
+		font-family:Comic Sans MS, Comic Sans, cursive;
+	}
+	
+	h2{
+		font-family:Comic Sans MS, Comic Sans, cursive;
+	}
+	
+	.recipe_table {
+		margin-left: 32px;
+		overflow: auto;
+	}
+	
+	.directions p{
+		margin-bottom: 16px;
+	}
+	.directions img{
+		margin-top: 16px;
+		width: 260px;
+	}
+	
+	table{
+		border-collapse: collapse;
+	}
+	td, th {
+		border: 1px solid black;
+		text-align: center;
+		padding: 8px 16px;
+	}
+	
+	tr:nth-child(1) {
+		background-color: #EDE2CE;
+	}
+	
+	.tooltip p{
+		transform: translateX(-49px) translateY(-42px);
+		background-color: black;
+		color: white;
+		opacity: 0;
+		padding: 16px;
+		border-radius: 6px;
+		position: absolute;
+		max-width: 150px;
+		transition: 1s;
+	}
+	
+	.tooltip p:hover {
+		opacity: 1;
+		transition-duration: 1s;
+	}
+	
+	.quantity-button {
+		color: #763523;
+		font-size: 1em;
+		display: inline-block;
+		margin: 16px 8px 0 0;
+		padding: 8px 16px;
+		border-radius: 6px;
+	}
+	
+	.quantity-button-group {
+		margin-left: 32px;
+	}
+	
+	.directions {
+		padding-left: 3.5em;
+		position: relative;
+	}
+
+	.directions li {
+		margin: 0 0 1.0em 0.5em;
+	}
+
+	.directions li.hidden {
+		position: absolute;
+		left: -9999em;
+	}
+
+	.directions li .hide-direction {
+		position: absolute;
+		left: 16px;
+
+		font-size: 1em;
+		color: #763523;
+		background-color: #fffefb;
+	
+		border-radius: 50%;
+	}
+	
+	.comments {
+		margin-left: 32px;
+	}
+	
+	.name .textarea {
+		margin-left: 32px;
+	}
+		
+}
